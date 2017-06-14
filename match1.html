@@ -47,13 +47,12 @@ event.stopPropagation();
 numberOfFaces += 5;
 level=level+1;
 generateFaces();
-};
+}
 theBody.onclick = function gameOver() {
 alert("Game Over! \n\n The level you reached is" +level);
 theBody.onclick = null;
 theLeftSide.lastChild.onclick = null;
-
-}; 
+} 
 }
 generateFaces();
 </script>
